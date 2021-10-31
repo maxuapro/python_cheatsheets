@@ -13,3 +13,10 @@ This creates a [virt env name]folder containing instance of Python
 ```
 and DEactivate: ``` deactivate```
 and Delete: ``` rm -r [virt env name] ```
+#### Check out environment
+get list of modules:
+terminal: ```python``` then:
+```py
+help("modules")
+```
+*There is a way to see the only list of modules without dependandant modules...
