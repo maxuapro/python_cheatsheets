@@ -1,5 +1,17 @@
 ## Python Windows + VSC setup cheatsheet
 ## Python install
+## Check versions
+Python
+```
+python --version or
+python -V
+python -VV
+py --version
+```
+pip
+```
+pip --version
+```
 ## Virtual environments
 #### Create:
 Create a folder, cd to the folder, then:
