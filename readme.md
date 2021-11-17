@@ -32,3 +32,17 @@ terminal: ```python``` then:
 help("modules")
 ```
 *There is a way to see the only list of modules without dependandant modules...
+## Pipenv
+install: ```pip install pipenv```
+Create a folder / cd to the folder / then:
+```
+pipenv shell
+```
+this creates an environment with the name of folder
+along with the Pipfile (like package.json)
+and activates the environment (does it?)
+### install modules/packages
+install: ```pipenv install [package name]```
+uninstall: ```pipenv uninstall [package name]```
+install dev dependencies: ```pipenv install [package name] --dev```
+see all packages installed + versions ```pipenv graph```
