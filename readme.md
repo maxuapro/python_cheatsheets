@@ -24,7 +24,7 @@ This creates a [virt env name]folder containing instance of Python
 [virt env name]/Scripts/activate
 ```
 and DEactivate: ``` deactivate```
-and Delete: ``` rm -r [virt env name] ```
+and Delete: ``` rm -r [virt env name] ``` (works for bash)
 #### Check out environment
 get list of modules:
 terminal: ```python``` then:
@@ -33,7 +33,7 @@ help("modules")
 ```
 *There is a way to see the only list of modules without dependandant modules...
 ## Pipenv
-install: ```pip install pipenv```
+install: ```pip install --user pipenv```
 Create a folder / cd to the folder / then:
 ```
 pipenv shell
